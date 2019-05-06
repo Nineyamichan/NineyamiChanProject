@@ -1,1 +1,22 @@
-
+<?php
+ class TesteProtecao{
+ protected $umaVariavel="Salvador";
+ private $outraVariavel="Melo";
+ function mostra(){
+ echo '$umaVariável = '.$this->umaVariavel."<br>";
+ echo '$outraVariável = '.$this->outraVariavel."<br><br><br>";
+ }
+ }
+ $obj = new TesteProtecao();
+ $obj->mostra();//mostra umaVariavel e outraVariavel
+ class Teste extends TesteProtecao{
+ function testa(){
+ TesteProtecao::mostra();//mostra umaVariavel e outraVariavel
+ $obj = new TesteProtecao();
+ echo '$umaVariável = '.$obj->umaVariavel."<br>";//mostra umaVariavel
+ echo '$outraVariável = '.$obj->outraVariavel."<br>";//não mostra outraVariavel: privada
+ }
+ }
+$obj = new Teste();
+ $obj->testa();
+ ?>
