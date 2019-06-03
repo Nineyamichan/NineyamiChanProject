@@ -1,4 +1,4 @@
-?php
+<?php
 include ('ban.php');
 $nome= $_POST['Nome'];
 $senha= $_POST['senha'];
