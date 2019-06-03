@@ -26,7 +26,8 @@ data-config="{'skin':'skins/wikfull/funkyRed/skin.css','volume':100,'autoplay':f
   <body background="https://images2.alphacoders.com/881/881377.jpg"   >
         
      
-<form action="CADASTRO-BD.php" method="POST"> 
+<form action="Login2.php" method="POST"> 
+    
             <center>
                 
                 <table  BACKGROUND="https://railroadphotosbypanos.net/wp-content/uploads/2018/10/nature-sketches-black-white-laptop-wallpapers-wallpaper-for-desktop-laptop-ms96-space-astronomy-galaxy-dark.jpg" border="2">
