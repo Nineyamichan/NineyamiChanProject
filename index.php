@@ -1,3 +1,5 @@
+
+
 <html>
     <head>
         
@@ -27,6 +29,7 @@ data-config="{'skin':'skins/wikfull/funkyRed/skin.css','volume':100,'autoplay':f
         
      
 <form action="CadastroBD.php" method="POST"> 
+    
             <center>
                 
                 <table  BACKGROUND="https://alekhya2014.files.wordpress.com/2017/01/8ba323e3e03e2c57d5fbf35a2d3200e7.jpg" border="2">
